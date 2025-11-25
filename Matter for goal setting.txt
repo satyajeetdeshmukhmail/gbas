@@ -1,0 +1,63 @@
+hi i am working as a deputy manager-desktop application development i am handling team of gui people where my job is to train,mentor,coding ,validation,testing,documentatiion,
+vendor coordination from gui sotware perceptive i am in writing for goal settings this year with following agenda :
+I.	Aim for this year – this should be measurable and very specific. No general statements please. Aim/tasks have to be project based – either NPD or execution.   
+II.	Activities/milestones to be completed – this has to be time bound. Assessment will be done on the basis of whether the committed task was done on, before or after the time committed. 
+III.	One goal has to be process oriented – process which the individual will set up as part of his/her work
+IV.	Learning & Development requirement – please include details of one training which you need 
+and i will share you project plan as well give me detailed data to set my goal ->Emergency Manager module high-level software architecture
+Manual Mission Abort command emergency procedure 
+Auto Mission Abort emergency procedure
+Manual RTL command emergency procedure 
+Manual Emergency buttton command procedure
+Readjustment of Emergency Manager code in C++ architecture
+Software code re-adjustment & integration 
+Test Emergency Manager with simulated data using C++ plots
+Combining FC HW ID, FC SW ID to form a AUV ID
+Hash the AUV ID using suitable hashing algorithm 
+Encrypting the AUV ID using public key, private key approach
+Readjustment of AUV Discovery Module code in C++ architecture
+Software code re-adjustment & integration 
+Test AUV Discovery Module with simulated data from MCS using C++ plots
+Configuration data manager
+MCS-AUV Communication Protocol
+Mission Mode manager
+Read MCS operator command frame data
+MCS command manager for Mission Abort
+MCS command manager for Dive Command 
+MCS command manager for Surfacing-Up Command
+MCS command for RTL 
+MCS command for Arming / Disarming
+MCS operator Safety emergency buttton command 
+Algorithm for Auto-Arming / Disarming 
+Readjustment of Command Manager code in C++ architecture
+Software code re-adjustment & integration 
+Test Command Manager with simulated data using C++ plots
+Guidance Law for selection of Next Waypoint (Code Conversion)
+this is for kauv project activities and other data is for gbas project :Authentication & Authorization Management	Role-based access control for operators, maintenance, and users
+Connection Settings	Configure Wi-Fi, Ethernet, and Serial connection panels with real-time status feedback
+Power On Self Test	Initial system diagnostics and readiness checks
+Pre/Post Test of UGV Peripherals	Automated testing of PTZ, motor, battery, GNSS
+GO / NO GO Decision	POST-based mission readiness evaluation
+UI Panels for Mission Planning	DSM & Survey of India map integration and visualization
+GCS Mission Parameters Panel	Configure waypoints, speed limits, and modes
+Communication Protocols – Command List	Define commands and message formats
+Data Exchange (GCS ↔ UGV)	MAVLink/ROS-based bidirectional communication
+Notification Messages	Health threshold alerts and emergency triggers
+Alert Pop-Ups	Health, mission feasibility, and object detection alerts
+System Health Assessment	Real-time diagnostics and health scoring
+Fault Management	Rule-based fault classification and prioritization
+Emergency Management System	Sensor integration and emergency rule automation
+Alerts & Notification Management	Centralized alert system for faults and detections
+Data Storage & Backup	Secure storage and automated backup setup
+Video/Image Storage	Timestamped recording and retrieval system
+Video Processing at GCS	Real-time decoding, stitching, overlay, and analytics
+Return to Home (RTH)	Safety protocols for system failure scenarios
+with that as pe mail : goal settings this year with following agenda :
+I.	Aim for this year – this should be measurable and very specific. No general statements please. Aim/tasks have to be project based – either NPD or execution.   
+II.	Activities/milestones to be completed – this has to be time bound. Assessment will be done on the basis of whether the committed task was done on, before or after the time committed. 
+III.	One goal has to be process oriented – process which the individual will set up as part of his/her work
+IV.	Learning & Development requirement – please include details of one training which you need and with that folow the same for mail with following perceptive :
+a. Customer Perspective
+b. Financial Perspective
+c. Process Perspective
+d. Learning and Growth Perspective
