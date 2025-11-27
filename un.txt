@@ -1,0 +1,71 @@
+Sr.No.	Item	Subtasks	Description	Status	Starting Date	End Date
+1	Aim	Ground Based Autonomous Underwater Vehicle	Design and integrate reliable software systems for GBAS, support team collaboration through mentoring and reviews,ensure high-quality, on-time deliveries with strong testing standards.	Inprogress	01-07-2025	31-03-2026
+		Kalyani Autonous Underwater Vehicle	To lead the design and development of software for the Kalyani Autonomous Underwater Vehicle (KAUV), while guiding the team to work together, build technical skills, and keep improving throughout the project.	Inprogress	01-07-2025	31-03-2026
+2	Activities/ Milestones					
+1.Ground Based Autonomous Underwater Vehicle-PYQT python & c++ development						
+1		Authentication & Authorization Management with SQLite db	Role-based access control for operators, maintenance, and users.(provision for no of users)	Done	03-11-2025	11-11-2025
+2		Connection Settings	Configure Wi-Fi, Ethernet, and Serial connection panels with real-time status feedback	In-Progress	12-11-2025	20-11-2025
+3		Power On Self Test	Initial system diagnostics and readiness checks	Not Started	21-11-2025	01-12-2025
+4		Pre/Post Test of UGV Peripherals	Automated testing of PTZ, motor, battery, GNSS	Not Started	02-12-2025	10-12-2025
+5		GO / NO GO Decision	POST-based mission readiness evaluation	Not Started	11-12-2025	19-12-2025
+6		UI Panels for Mission Planning	DSM & Survey of India map integration and visualization	Not Started	22-12-2025	01-01-2026
+7		GCS Mission Parameters Panel	Configure waypoints, speed limits, and modes	Not Started	02-01-2026	10-01-2026
+8		Communication Protocols – Command List	Define commands and message formats	Not Started	13-01-2026	21-01-2026
+9		Data Exchange (GCS ↔ UGV)	MAVLink/ROS-based bidirectional communication	Not Started	22-01-2026	31-01-2026
+10		Notification Messages	Health threshold alerts and emergency triggers	Not Started	01-02-2026	09-02-2026
+11		Alert Pop-Ups	Health, mission feasibility, and object detection alerts	Not Started	12-02-2026	20-02-2026
+12		System Health Assessment	Real-time diagnostics and health scoring	Not Started	21-02-2026	03-03-2026
+13		Fault Management	Rule-based fault classification and prioritization	Not Started	04-03-2026	12-03-2026
+14		Emergency Management System	Sensor integration and emergency rule automation	Not Started	13-03-2026	31-03-2026
+2.Kalyani Autonous Underwater Vehicle						
+1		Qt Training	Given required modules training to peer.	Completed	10-Sep-25	24-Sep-25
+2		Class Diagram – Mission Editor	Designed class structure for mission planning module.	Completed	25-Sep-25	10-Oct-25
+3		UI Design: Mission Dialog	Created Mission Dialog in Qt Designer with tab structure: Mission, Live Tracking, Replay.	Completed	13-Oct-25	17-Oct-25
+4		UI Design: Settings Panel	Integrated QLineEdit for manual slider input with units (WP Speed, WP Altitude, Rails, Circles, Timeout).	Completed	27-Oct-25	31-Oct-25
+5		Mission Programming: Waypoints (Add)	Added manual coordinate entry (lat, long) with submit button to add waypoint.	Completed	03-Nov-25	07-Nov-25
+6		Mission Programming: Waypoints (Remove)	Implemented Remove Waypoint feature.	Completed	10-Nov-25	12-Nov-25
+7		Mission Programming: Map Loading	Added functionality to browse and display map file in Mission tab.	Completed	13-Nov-25	14-Nov-25
+8		Mission Programming: Waypoints (Clear)	Implemented Clear button to remove all waypoints and lines without clearing map.	Completed	17-Nov-25	18-Nov-25
+9		Mission Programming: Mission Controls (Cancel)	Implemented Cancel button to reset Mission tab.	Completed	19-Nov-25	20-Nov-25
+10		Mission Programming: Mission Controls (Save)	Implemented Save Mission functionality with unique filename in saved_missions folder.	Completed	21-Nov-25	24-Nov-25
+11		Code Optimization: Mission & Live Tracking	Refactored code to separate Mission tab and Live Tracking map (scene vs liveScene).	Completed	25-Nov-25	28-Nov-25
+12		Bug Fixes: Signals & Slots	Fixed issues with signals, slots, event filters, and waypoint removal.	Not Started	01-Dec-25	03-Dec-25
+13		Bug Fixes: Compilation Errors	Fixed compilation errors related to undefined references and slot declarations.	Not Started	04-Dec-25	05-Dec-25
+14		Upload Mission	Implemented Upload Mission functionality to load saved missions into Live Tracking tab.	Not Started	08-Dec-25	10-Dec-25
+15		Waypoint Visualization	Displayed coordinates with numbering and tolerance circle visualization.	Not Started	11-Dec-25	15-Dec-25
+16		Live Tracking: Waypoint Plotting	Extracted and plotted saved waypoint coordinates dynamically on Live Tracking map.	Not Started	16-Dec-25	19-Dec-25
+17		AUV Simulation	Implemented live AUV simulation showing current lat, long, and real-time speed (km/h).	Not Started	22-Dec-25	26-Dec-25
+18		Mission Controls: Launch/Abort	Added Launch and Abort buttons to control live simulation.	Not Started	29-Dec-25	31-Dec-25
+19		Authentication & Authorization Mgmt	Role-based access control for operators, maintenance, and users (SQLite DB).	Not Started	02-Jan-26	10-Jan-26
+20		Navigation Module – HLD	Designed high-level navigation interface for mission planning and waypoint control.	Not Started	13-Jan-26	24-Jan-26
+21		Navigation Module – LLD	Developed low-level control interface for heading, depth, and speed.	Not Started	27-Jan-26	07-Feb-26
+22		Live Tracking – Design	Designed architecture and UI flow for real-time AUV tracking.	Not Started	10-Feb-26	21-Feb-26
+23		Replay Module – Planning	Designed replay functionality for mission data visualization.	Not Started	24-Feb-26	06-Mar-26
+24		User Testing & Feedback	Conducted usability testing and collected operator feedback.	Not Started	09-Mar-26	20-Mar-26
+25		Documentation & Training Support	Prepared user manuals, tooltips, and training materials.	Not Started	23-Mar-26	31-Mar-26
+	Process Oriented Goal		To deliver a fully functional, modular, and mission-ready software suite for the Ground Based and Kalyani Autonomous Underwater Vehicles by systematically progressing through effective working days. This includes structured planning, iterative development using PYQT, Python, and C++, rigorous testing and validation, continuous team mentoring, and comprehensive documentation—ensuring timely, high-quality, and collaborative execution across both platforms."
+
+Subtasks	Description	Status
+Modular Software Architecture	Design modular, scalable components for UI, mission control, and communication systems	In Progress
+Code Quality & Standards	Enforce consistent coding practices (PEP8 for Python, MISRA for C++), with regular peer reviews	In Progress
+Version Control & CI Integration	Use Git with structured branching; integrate CI pipelines for builds and automated testing	In Progress
+Testing & Validation	Maintain 85%+ unit test coverage; implement integration and system-level tests for critical modules	Not Started
+Documentation Discipline	Maintain updated technical documentation, diagrams, and user manuals throughout development	In Progress
+Agile Development Process	Follow bi-weekly sprint cycles with planning, reviews, and retrospectives	In Progress
+Cross-Team Collaboration	Conduct regular sync-ups between software, hardware, and systems teams for alignment	In Progress
+User-Centric Design	Gather operator feedback and iterate UI/UX for clarity, usability, and responsiveness	Not Started
+Performance Optimization	Continuously profile and optimize latency (<200ms) and resource usage	Not Started
+Fault & Emergency Management	Implement rule-based fault detection, classification, and emergency handling mechanisms	Not Started
+Secure Access Control	Enforce role-based access with encrypted credentials and audit logging	Completed
+Simulation & Replay Framework	Develop tools for mission rehearsal, live tracking, and replay visualization	In Progress
+Internal Training & Upskilling	Conduct peer training sessions on Qt, MAVLink, ROS, and mission control concepts	Completed
+Stakeholder Communication	Share progress via demos, reports, and milestone reviews with stakeholders	In Progress
+		
+Phase	Focus	Timeline (Working Days)
+Initiation & Planning	Define scope, assign roles, set up tools, and conduct Qt training	Jul–Sep 2025 (Day 1–45)
+Design & Architecture	Class diagrams, UI mockups, mission editor structure	Sep–Oct 2025 (Day 46–75)
+Core Development	Authentication, mission programming, UI panels, communication protocols	Nov–Jan 2026 (Day 76–135)
+System Integration	Data exchange, live tracking, simulation, navigation modules	Jan–Feb 2026 (Day 136–160)
+Testing & Fault Handling	POST, health diagnostics, fault/emergency management	Feb–Mar 2026 (Day 161–180)
+Validation & Handover	User testing, feedback, documentation, training support	Mar 2026 (Day 181–191)
+			
