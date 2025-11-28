@@ -1,113 +1,96 @@
-Software/Hardware/Testing	Task	Description / Key Activities	Start Date	End Date	Team Involved	Phase	Duration (days)	Sprint #	Status
-User Interface-Ground Control Station 									
-GUI / Frontend Development-GCS Interface	Authentication & Authorization Management	Implement role-based access control to ensure that operators, maintenance personnel, and users have appropriate permissions aligned with their responsibilities.	2025-11-01	2025-11-07	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 1	Planned
-	UI Panels for Mission Planning - DSM Maps,Map Data Preparation - DSM ,Survey Of India	Design and implement mission planning UI panels that integrate DSM and Survey of India datasets, including preprocessing and visualization of terrain and map data for accurate route planning.	2025-11-08	2025-11-14	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 2	Planned
-	Data exchange between a Ground Control Station (GCS) and an Unmanned Ground Vehicle (UGV) -Communication Protocols,types of data exchanged	Facilitate secure, real-time bidirectional communication between GCS and UGV using protocols like MAVLink and ROS to transmit mission commands, telemetry, sensor data, and diagnostics for autonomous operations.	2025-11-15	2025-11-21	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 3	Planned
-	UI Panels for GCS Operations - Mission Parameters	Design and implement user interface panels that allow operators to view, input, and configure mission parameters such as waypoints, speed limits, and operational modes for UGV deployment.	2025-11-22	2025-11-28	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 4	Planned
-	Notification Messages- health threshold,input on Emergency management procedure	Develop a notification system that monitors UGV health metrics and triggers alerts or emergency procedures when predefined thresholds are breached or manual emergency inputs are received.	2025-11-29	2025-12-05	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 5	Planned
-	Communication & Networking Protocols-Commands List	Define and standardize command sets, message structures, and networking protocols to enable reliable, secure, and interoperable communication between GCS and UGV systems.	2025-12-06	2025-12-12	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 6	Planned
-	Alert Pop-Ups- health threshold,criteria for non-feasible mission plan,object detection requirement in video	Implement an alert pop-up system that monitors UGV health thresholds, evaluates mission feasibility criteria, and triggers notifications based on object detection events in video feeds.	2025-12-13	2025-12-19	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 7	Planned
-	Data Storage & Back Up	Establish secure data storage systems with defined retention policies and automated backup mechanisms to ensure integrity, availability, and recovery of mission-critical information.	2025-12-20	2025-12-26	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 8	Planned
-	Video Recording / Image Snapshot storage	Enable video recording and image snapshot storage with automated indexing and timestamp-based retrieval to support mission documentation and post-operation analysis.	2025-12-27	2026-01-02	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 9	Planned
-	System Health Assessment (Diagnostics Management)	Implement continuous system diagnostics with real-time telemetry analysis, health scoring, and automated reporting to ensure operational reliability and early fault detection.	2026-01-03	2026-01-09	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 10	Planned
-	Fault Management	Implement rule-based fault classification and prioritize handling based on severity levels and diagnostic data.	2026-01-10	2026-01-16	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 11	Planned
-	Emergency Management System	Integrate environmental sensors (e.g., wind) and define automated emergency procedures for minor faults and critical events.	2026-01-17	2026-01-23	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 12	Planned
-	Alerts and Notification Management	Develop a centralized alert system to manage fault notifications, emergency actions, and object detection from day/night vision feeds.	2026-01-24	2026-01-30	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 13	Planned
-	Video Processing at GCS	Perform real-time video decoding, stitching, overlay rendering, and analytics for mission monitoring and situational awareness.	2026-01-31	2026-02-06	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 14	Planned
-	Pre- & Post Test of UGV Peripherals	Define and execute automated tests for PTZ cameras, motor parameters, battery health, and GNSS functionality before and after deployment.	2026-02-07	2026-02-13	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 15	Planned
-	GO / NO GO Decision – POST Requirements	Automate GO/NO-GO decisions based on pre- and post-test results of payload systems, motor, engine parameters, and other critical subsystems.	2026-02-14	2026-02-20	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 16	Planned
-	Return to Home (RTH)	Implement safety protocols for automatic return-to-home actions triggered by system failures or predefined abort conditions.	2026-02-21	2026-02-27	Mahadevi Biradar,Satyajeet Deshmukh,Borse Team	Design/Development	7	Sprint 17	Planned
-									
-Vehicle Control Unit 									
-VCU	Initial Power Check				Sonam Tiwari,Tushar Bhalerao				
-	Linux Installation (Operating System)				Sachin Kate ,Borse Team				
-	ROS2 Installation 				Sachin Kate ,Borse Team				
-	ROS2 Workspace configuration(Humble)				Sachin Kate ,Borse Team				
-Temperature Sensor	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK installation & configuration				Sachin Kate ,Borse Team				
-	trial code of temp sensor				Sachin Kate ,Borse Team				
-	Temperature Sensor Calibration				Sachin Kate ,Borse Team				
-	Final Code(ROS2-CPP)				Sachin Kate ,Borse Team				
-Motor Driver	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK installation & configuration				Sachin Kate ,Borse Team				
-	trial code				Sachin Kate ,Borse Team				
-	Final Code(ROS2-CPP,Python )				Sachin Kate ,Borse Team				
-3D LIDAR	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK installation & configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-	Final Code(ROS2-CPP)				Sachin Kate ,Borse Team				
-Follow Me Tag + Anchor	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK installation & configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-	Final Code(ROS2-CPP,Python )				Sachin Kate ,Borse Team				
-IO Module	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-	Final Code(ROS2-CPP,Python )				Sachin Kate ,Borse Team				
-EO Sight Camera (PTZ Camera Control)	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-	Final Code(ROS2-CPP,Python )				Sachin Kate ,Borse Team				
-GNSS Receiver	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-EO Sight Camera + encoder	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	Device Testing				Sachin Kate ,Borse Team				
-Drive Camera + encoder	technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	Device Testing				Sachin Kate ,Borse Team				
-Radio	Technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-BMS	Technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-EO Sight Camera Mast	Technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-EM Brake	Technical study(datasheet)				Sachin Kate ,Borse Team				
-	Library/SDK configuration				Sachin Kate ,Borse Team				
-	trial code 				Sachin Kate ,Borse Team				
-LRU's Integration	LRU's Mounting 				Mechanical Team				
-	Wire harness Routing				Sonam Tiwari,Tushar Bhalerao				
-	Electrical Check				Sonam Tiwari,Tushar Bhalerao				
-Unit Testing	All Peripheral Communication/Trial Code Check				Sachin Kate ,Borse Team				
-	Standards and Compliance				Sachin Kate ,Borse Team				
-Integration Testing	VCU - Motor Controller integration				Sachin Kate,Borse Team				
-	VCU - BMS integration				Sachin Kate ,Borse Team				
-	VCU - 3D Lidar integration				Sachin Kate ,Borse Team				
-	Other Peripheral integration				Sachin Kate ,Borse Team				
-Working Mode Development	CRC Mode				Sachin Kate ,Borse Team				
-	Teleoperation Mode				Sachin Kate ,Borse Team				
-	Follow-Me Mode				Sachin Kate ,Borse Team				
-	Return-to-Home				Sachin Kate ,Borse Team				
-Autonomy Mode	ROS2 Topic creation				Sachin Kate ,Borse Team				
-	GNSS and GPS integartion				Sachin Kate ,Borse Team				
-	IMU Integration				Sachin Kate ,Borse Team				
-	3D Lidar integration				Sachin Kate ,Borse Team				
-	Motor Integration				Sachin Kate ,Borse Team				
-	Camera integration				Sachin Kate ,Borse Team				
-	Begin of autonomy software development				Sachin Kate ,Borse Team				
-Autonomy Failure-Mode Handling	Radio communication loss behaviour				Borse Team				
-	GPS Signal loss behaviour				Borse Team				
-	Fail-safe transitions & degraded-mode testing				Borse Team				
-Security, Safety & Final Testing	Cybersecurity Layer				Borse Team				
-	Functional safety checks				Borse Team				
-	Standard compliance validation				Borse Team				
-	End-to-end system testing				Borse Team				
-	Data theft protection				Borse Team				
-Hardware & Peripheral Testing-Validation & Field Tests	Sensor Calibration & Validation	Calibrate LiDAR, IMU, GNSS and validate outputs.	2026-01-31	2026-02-13	Hardware Team, QA Team	Validation/Testing	14	Sprint 14	Planned
-	Environmental Stress Testing (Thermal/Vibration)	Thermal and vibration stress tests.	2026-02-07	2026-02-20	Hardware Team, QA Team	Validation/Testing	14	Sprint 15	Planned
-	EMI/EMC Testing	Conduct EMI/EMC testing as per standards.	2026-02-14	2026-02-27	Hardware Team, QA Team	Validation/Testing	14	Sprint 16	Planned
-	Integration with Firmware	Validate hardware after firmware integration.	2026-02-21	2026-03-06	Hardware Team, QA Team	Validation/Testing	14	Sprint 17	Planned
-	Field Integration Testing	Full system field tests and performance validation.	2026-02-28	2026-03-13	Hardware Team, QA Team	Validation/Testing	14	Sprint 18	Planned
-Quality Assurance (QA)-Testing & Validation	Test Plan Preparation	Create QA test plan, test cases and acceptance criteria.	2026-02-07	2026-02-20	QA Team	Testing/Delivery	14	Sprint 15	Planned
-	Functional & Regression Testing	Execute functional and regression test suites.	2026-02-14	2026-02-27	QA Team	Testing/Delivery	14	Sprint 16	Planned
-	Bug Triaging & Fix Verification	Triage issues and verify fixes across sprints.	2026-02-21	2026-03-06	QA Team	Testing/Delivery	14	Sprint 17	Planned
-	Final QA Sign-off	Prepare QA reports and sign-off documentation.	2026-02-28	2026-03-13	QA Team	Testing/Delivery	14	Sprint 18	Planned
-									
-Project Management (PMO)-Management	Project Kick-off & Resource Allocation	Initiate project and allocate resources.	2025-11-01	2025-11-14	PMO Team	Continuous	14	Sprint 1	Planned
-	Weekly Sprint Reviews	Weekly progress, impediment removal and stakeholder updates.	2025-11-01	2026-04-17	PMO Team	Continuous	168	Sprint 1	Planned
-	Mid-Project Review	Assess progress and replan.	2026-01-17	2026-01-30	PMO Team	Review	14	Sprint 12	Planned
-	Final Delivery & Handover	Final handover, documentation and training.	2026-04-04	2026-04-17	PMO Team	Delivery	14	Sprint 23	Planned
+Task	Description / Key Activities	Team Involved	Start Date	End Date
+1.GCS				
+Authentication & Authorization Management	Implement role‑based access control so operators, maintenance staff and users get proper permissions.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	01-12-2025	2025-12-10 00:00:00
+UI Panels for Mission Planning	Mission planning UI with DSM + Survey of India data including preprocessing & visualization.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2025-12-11 00:00:00	2025-12-22 00:00:00
+Data exchange GCS-UGV	Real‑time secure bidirectional communication using MAVLink/ROS for telemetry, commands, diagnostics.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2025-12-23 00:00:00	2026-01-01 00:00:00
+UI Panels for GCS Operations	Panels for viewing and configuring mission parameters—waypoints, speeds, modes.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-01-02 00:00:00	2026-01-13 00:00:00
+Notification Messages	Health monitoring alerts, emergency triggers based on thresholds or operator inputs.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-01-14 00:00:00	2026-01-23 00:00:00
+Communication & Networking Protocols	Define command sets, message structures, networking standards for GCS‑UGV.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-01-27 00:00:00	2026-02-05 00:00:00
+Alert Pop-Ups	Alerts for mission feasibility, health thresholds, object detection from video.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-02-06 00:00:00	2026-02-17 00:00:00
+Data Storage & Back Up	Secure storage with retention policies, automatic backups for mission data.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-02-18 00:00:00	2026-02-27 00:00:00
+Video Recording / Image Snapshot storage	Video recording and image snapshots with indexing & timestamp retrieval.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-03-02 00:00:00	2026-03-11 00:00:00
+System Health Assessment	Continuous diagnostics, telemetry analysis, health scoring and reporting.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-03-12 00:00:00	2026-03-23 00:00:00
+Fault Management	Rule‑based fault classification with severity‑based priorities.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-03-24 00:00:00	2026-04-02 00:00:00
+Emergency Management System	Integrate environmental sensors; automated emergency handling for fault events.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-04-03 00:00:00	2026-04-14 00:00:00
+Alerts and Notification Management	Central alert system for faults, object detection, emergency conditions.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-04-15 00:00:00	2026-04-24 00:00:00
+Video Processing at GCS	Real‑time video decoding, stitching, overlays and analytics.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-04-27 00:00:00	2026-05-07 00:00:00
+Pre- & Post Test of UGV Peripherals	Automated tests for PTZ camera, motors, battery, GNSS before/after missions.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-05-08 00:00:00	2026-05-19 00:00:00
+GO / NO GO Decision	Automated go/no‑go based on subsystem health and test results.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-05-20 00:00:00	2026-05-29 00:00:00
+Return to Home (RTH)	Automatic RTH on system failures or abort conditions.	Mahadevi Biradar, Satyajeet Deshmukh, Borse Team	2026-06-01 00:00:00	2026-06-10 00:00:00
+2.VCU				
+Initial Power Check	VCU development activity.	Sachin Kate, Borse Team	2025-12-01 00:00:00	2025-12-08 00:00:00
+Linux Installation	VCU development activity.	Sachin Kate, Borse Team	2025-12-09 00:00:00	2025-12-16 00:00:00
+ROS2 Installation	VCU development activity.	Sachin Kate, Borse Team	2025-12-17 00:00:00	2025-12-24 00:00:00
+ROS2 Workspace configuration	VCU development activity.	Sachin Kate, Borse Team	2025-12-25 00:00:00	2026-01-01 00:00:00
+Temperature Sensor – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-01-02 00:00:00	2026-01-09 00:00:00
+Temperature Sensor – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-01-12 00:00:00	2026-01-19 00:00:00
+Temperature Sensor – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-01-20 00:00:00	2026-01-28 00:00:00
+Temperature Sensor – calibration	VCU development activity.	Sachin Kate, Borse Team	2026-01-29 00:00:00	2026-02-05 00:00:00
+Temperature Sensor – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	2026-02-06 00:00:00	2026-02-13 00:00:00
+Motor Driver – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-02-16 00:00:00	2026-02-23 00:00:00
+Motor Driver – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-02-24 00:00:00	2026-03-03 00:00:00
+Motor Driver – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-03-04 00:00:00	2026-03-11 00:00:00
+Motor Driver – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	2026-03-12 00:00:00	2026-03-19 00:00:00
+3D LIDAR – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-03-20 00:00:00	2026-03-27 00:00:00
+3D LIDAR – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-03-30 00:00:00	2026-04-06 00:00:00
+3D LIDAR – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-04-07 00:00:00	2026-04-14 00:00:00
+3D LIDAR – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	2026-04-15 00:00:00	2026-04-22 00:00:00
+Follow Me Tag – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-04-23 00:00:00	2026-04-30 00:00:00
+Follow Me Tag – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-05-04 00:00:00	2026-05-11 00:00:00
+Follow Me Tag – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-05-12 00:00:00	2026-05-19 00:00:00
+Follow Me Tag – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	2026-05-20 00:00:00	2026-05-27 00:00:00
+IO module – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-05-28 00:00:00	2026-06-04 00:00:00
+IO module – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-06-05 00:00:00	2026-06-12 00:00:00
+IO module – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-06-15 00:00:00	2026-06-22 00:00:00
+IO module – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	2026-06-23 00:00:00	2026-06-30 00:00:00
+EO Sight Camera – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-07-01 00:00:00	2026-07-08 00:00:00
+EO Sight Camera – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-07-09 00:00:00	2026-07-16 00:00:00
+EO Sight Camera – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-07-17 00:00:00	2026-07-24 00:00:00
+EO Sight Camera – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	2026-07-27 00:00:00	2026-08-03 00:00:00
+GNSS receiver – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-08-04 00:00:00	2026-08-11 00:00:00
+GNSS receiver – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-08-12 00:00:00	2026-08-19 00:00:00
+GNSS receiver – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-08-20 00:00:00	2026-08-27 00:00:00
+EO Sight Camera + encoder – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-08-28 00:00:00	2026-09-04 00:00:00
+EO Sight Camera + encoder – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-09-07 00:00:00	2026-09-14 00:00:00
+EO Sight Camera + encoder – device testing	Validate real hardware performance and verify output stability.	Sachin Kate, Borse Team	2026-09-15 00:00:00	2026-09-22 00:00:00
+Drive camera + encoder – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-09-23 00:00:00	2026-09-30 00:00:00
+Drive camera + encoder – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-10-01 00:00:00	2026-10-08 00:00:00
+Drive camera + encoder – device testing	Validate real hardware performance and verify output stability.	Sachin Kate, Borse Team	2026-10-09 00:00:00	2026-10-16 00:00:00
+Radio – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-10-19 00:00:00	2026-10-26 00:00:00
+Radio – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-10-27 00:00:00	2026-11-03 00:00:00
+Radio – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-11-04 00:00:00	2026-11-11 00:00:00
+BMS – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-11-12 00:00:00	2026-11-19 00:00:00
+BMS – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-11-20 00:00:00	2026-11-27 00:00:00
+BMS – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-11-30 00:00:00	2026-12-07 00:00:00
+EO Sight Camera Mast – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2026-12-08 00:00:00	2026-12-15 00:00:00
+EO Sight Camera Mast – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2026-12-16 00:00:00	2026-12-23 00:00:00
+EO Sight Camera Mast – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2026-12-24 00:00:00	2026-12-31 00:00:00
+EM brake – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	2027-01-01 00:00:00	2027-01-08 00:00:00
+EM brake – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	2027-01-11 00:00:00	2027-01-18 00:00:00
+EM brake – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	2027-01-19 00:00:00	2027-01-26 00:00:00
+Hardware				
+Sensor Calibration & Validation	Calibrate LiDAR, IMU, GNSS and validate accuracy.	Hardware Team, QA Team	2026-01-31	2026-02-13
+Environmental Stress Testing	Thermal and vibration endurance testing.	Hardware Team, QA Team	2026-02-07	2026-02-20
+EMI/EMC Testing	Test electromagnetic interference and compatibility.	Hardware Team, QA Team	2026-02-14	2026-02-27
+Integration with Firmware	Validate hardware after firmware integration.	Hardware Team, QA Team	2026-02-21	2026-03-06
+Field Integration Testing	System field tests for performance validation.	Hardware Team, QA Team	2026-02-28	2026-03-13
+3.QA				
+Test Plan Preparation	Create QA plans, test cases and acceptance criteria.	QA Team	2026-02-07	2026-02-20
+Functional & Regression Testing	Run functional and regression test suites.	QA Team	2026-02-14	2026-02-27
+Bug Triaging & Fix Verification	Triage issues and verify fixes.	QA Team	2026-02-21	2026-03-06
+Final QA Sign-off	Prepare documentation and final QA approval.	QA Team	2026-02-28	2026-03-13
+4.PMO				
+Project Kick-off	Project initiation and resource planning.	PMO Team	2025-11-01	2025-11-14
+Weekly Sprint Reviews	Weekly progress reviews, impediment removal, stakeholder updates.	PMO Team	2025-11-01	2026-04-17
+Mid-Project Review	Review progress and adjust planning.	PMO Team	2026-01-17	2026-01-30
+Final Delivery	Final delivery, documentation and training.	PMO Team	2026-04-04	2026-04-17
+
+1.GCS-1st dec 2025 to 30th July 2026
+2.VCU-1st dec 2025 to 30th July 2026
+3.QA-1st dec 2025 to 30th July 2026
+4.PMO-1st dec 2025 to 30th July 2026
+
+need start date and end date 
+1st Dec 2025 to 30th July 2026,
+excluding weekends -Saturday,sunday,1st may 2026,26th January 2026 
+Final Delivery date:30th July 2026
