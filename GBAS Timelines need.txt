@@ -1,0 +1,60 @@
+Task	Description / Key Activities	Team Involved	Start Date	End Date
+Initial Power Check	VCU development activity.	Sachin Kate, Borse Team	01-12-2025	08-12-2025
+Linux Installation	VCU development activity.	Sachin Kate, Borse Team	09-12-2025	16-12-2025
+ROS2 Installation	VCU development activity.	Sachin Kate, Borse Team	17-12-2025	24-12-2025
+ROS2 Workspace configuration	VCU development activity.	Sachin Kate, Borse Team	25-12-2025	01-01-2026
+Temperature Sensor – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	02-01-2026	09-01-2026
+Temperature Sensor – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	12-01-2026	19-01-2026
+Temperature Sensor – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	20-01-2026	28-01-2026
+Temperature Sensor – calibration	VCU development activity.	Sachin Kate, Borse Team	29-01-2026	05-02-2026
+Temperature Sensor – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	06-02-2026	13-02-2026
+Motor Driver – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	16-02-2026	23-02-2026
+Motor Driver – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	24-02-2026	03-03-2026
+Motor Driver – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	04-03-2026	11-03-2026
+Motor Driver – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	12-03-2026	19-03-2026
+3D LIDAR – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	20-03-2026	27-03-2026
+3D LIDAR – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	30-03-2026	06-04-2026
+3D LIDAR – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	07-04-2026	14-04-2026
+3D LIDAR – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	15-04-2026	22-04-2026
+Follow Me Tag – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	23-04-2026	30-04-2026
+Follow Me Tag – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	04-05-2026	11-05-2026
+Follow Me Tag – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	12-05-2026	19-05-2026
+Follow Me Tag – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	20-05-2026	27-05-2026
+IO module – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	28-05-2026	04-06-2026
+IO module – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	05-06-2026	12-06-2026
+IO module – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	15-06-2026	22-06-2026
+IO module – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	23-06-2026	30-06-2026
+EO Sight Camera – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	01-07-2026	08-07-2026
+EO Sight Camera – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	09-07-2026	16-07-2026
+EO Sight Camera – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	17-07-2026	24-07-2026
+EO Sight Camera – final code	Develop final ROS2-compliant code for integration.	Sachin Kate, Borse Team	27-07-2026	03-08-2026
+GNSS receiver – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	04-08-2026	11-08-2026
+GNSS receiver – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	12-08-2026	19-08-2026
+GNSS receiver – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	20-08-2026	27-08-2026
+EO Sight Camera + encoder – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	28-08-2026	04-09-2026
+EO Sight Camera + encoder – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	07-09-2026	14-09-2026
+EO Sight Camera + encoder – device testing	Validate real hardware performance and verify output stability.	Sachin Kate, Borse Team	15-09-2026	22-09-2026
+Drive camera + encoder – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	23-09-2026	30-09-2026
+Drive camera + encoder – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	01-10-2026	08-10-2026
+Drive camera + encoder – device testing	Validate real hardware performance and verify output stability.	Sachin Kate, Borse Team	09-10-2026	16-10-2026
+Radio – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	19-10-2026	26-10-2026
+Radio – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	27-10-2026	03-11-2026
+Radio – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	04-11-2026	11-11-2026
+BMS – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	12-11-2026	19-11-2026
+BMS – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	20-11-2026	27-11-2026
+BMS – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	30-11-2026	07-12-2026
+EO Sight Camera Mast – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	08-12-2026	15-12-2026
+EO Sight Camera Mast – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	16-12-2026	23-12-2026
+EO Sight Camera Mast – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	24-12-2026	31-12-2026
+EM brake – technical study	Review datasheet, understand interfaces, electrical characteristics, communication protocols.	Sachin Kate, Borse Team	01-01-2027	08-01-2027
+EM brake – SDK setup	Install and configure device SDK/library for integration.	Sachin Kate, Borse Team	11-01-2027	18-01-2027
+EM brake – trial code	Write trial code to verify basic communication and functionality.	Sachin Kate, Borse Team	19-01-2027	26-01-2027
+
+2.VCU-1st dec 2025 to 30th July 2026
+3.QA-1st dec 2025 to 30th July 2026
+4.PMO-1st dec 2025 to 30th July 2026
+
+need start date and end date 
+1st Dec 2025 to 30th July 2026,
+excluding weekends -Saturday,sunday,1st may 2026,26th January 2026 
+Final Delivery date:30th July 2026
